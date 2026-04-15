@@ -1,0 +1,118 @@
+body{
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+.todos{
+    text-align: center;
+    background-color: white;
+    width: 450px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 380px;
+}
+.addInp{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+.addBtn{
+    background-color:darkblue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+li{
+    list-style: none;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.delete{
+    font-size: 25px;
+    cursor: pointer;
+}
+.delete:hover{
+    color: tomato;
+}
+.check-icon{
+    font-size:25px ;
+}
+.completed .taskText{
+    text-decoration: line-through;
+    color: grey;
+}
+.completed .fa-square-check{
+    color: green;
+}
+span{
+    font-size: 25px;
+}
+.edit{
+    font-size: 27px;
+}
+.edit:hover{
+    color: darkorange;
+}
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.518);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.modal-content{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+.modal-actions{
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px ;
+}
+.editInp{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+.saveEditBtn{
+    background-color: tomato;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+}
+.closeEditBtn{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 130px;
+}
+.hidden{
+    display: none;
+}
+.text-time{
+    display: flex;
+    flex-direction: column;
+}
+small{
+    color: gray;
+}
